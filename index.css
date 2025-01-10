@@ -9,7 +9,9 @@
 
 .logo {
     width: 85px;
-    border-radius: 10px;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-left: 4px;
 }
 
 .nav-items > ul {
@@ -31,24 +33,63 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .restaurant-card{
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
     padding: 5px;
-    margin: 20px;
-    height: 300px;
-    width: 200px;
-    background-color: rgb(233, 233, 233);
+    margin: 5px;
+    width: 175px;
+    background-color: rgb(248, 248, 248);
+}
+
+.restaurant-info {
+    padding: 5px;
+}
+
+.restaurant-card:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .restaurant-logo {
     width: 100%;
-    border-radius: 10px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+    display: block;
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
 }
 
 .filter-btn{
     margin: 10px;
     cursor: pointer;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.shimmer-card{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    height: 320px;
+    width: 175px;
+    background-color: rgb(233, 233, 233);
+}
+
+.login-btn {
+    margin: 5px;
 }
